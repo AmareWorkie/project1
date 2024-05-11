@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login and Sign Up Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <div id="loginFormContainer" class="form-container">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <div class="input-group">
+        <label for="loginUsername">Username</label>
+        <input type="text" id="loginUsername" name="loginUsername" required>
+      </div>
+      <div class="input-group">
+        <label for="loginPassword">Password</label>
+        <input type="password" id="loginPassword" name="loginPassword" required>
+      </div>
+      <button type="submit">Login</button>
+      <p id="loginErrorMessage" class="error"></p>
+    </form>
+  </div>
+
+  <div id="signupFormContainer" class="form-container">
+    <h2>Sign Up</h2>
+    <form id="signupForm">
+        <div class="input-group">
+          <label for="signupUsername">Username</label>
+          <input type="text" id="signupUsername" name="signupUsername" required>
+        </div>
+        <div class="input-group">
+          <label for="signupPassword">Password</label>
+          <input type="password" id="signupPassword" name="signupPassword" required>
+        </div>
+        <button type="submit">Sign Up</button>
+        <p id="signupErrorMessage" class="error"></p>
+      </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>  
